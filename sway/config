@@ -6,7 +6,7 @@
       		set $term lxterminal
     		set $menu rofi -show drun -modes drun -cycle false 
     		#include /etc/sway/config-vars.d
-    		output * bg /home/guest/background.jpg fill
+    		output * bg ~/background.jpg fill
     		input * xkb_numlock enable
     		seat seat0 xcursor_theme Numix-Cursor
     		bindsym $mod+Return exec $term
